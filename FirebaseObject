@@ -1,0 +1,14 @@
+const admin = require('firebase-admin');
+
+// Load the Firebase app configuration from the JSON
+const serviceAccount = require("../Plopso_chat/google-json-file.json");
+
+// Initialize the Firebase app
+admin.initializeApp({
+    credential: admin.credential.cert(serviceAccount),
+    databaseURL: serviceAccount.firebase_url,
+    storageBucket: serviceAccount.storage_bucket,
+});
+
+// Access the Firebase app object
+const firebaseApp = admin.app();

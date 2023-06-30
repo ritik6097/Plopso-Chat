@@ -1,0 +1,30 @@
+{
+    "project_info": {
+        "project_number": "687517769988",
+        "firebase_url": "https://chat-plopso-default-rtdb.asia-southeast1.firebasedatabase.app",
+        "project_id": "chat-plopso",
+        "storage_bucket": "chat-plopso.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:687517769988:android:c8b8f3b3b50164abedf051",
+                "android_client_info": {
+                    "package_name": "com.plopso.android"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyDj6EJAzxOLt0GLosuKuWHWpF7HIRlm4UM"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": []
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}
